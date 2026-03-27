@@ -84,23 +84,28 @@
             font-style: italic;
             line-height: 2em;
         }
-
-        #git:hover{
-            background-color: black;
-            color: white;
-            transform: scale(1.1);
-        }
-        .rodape{
+        
+        #git {
             text-align: center;
             margin-top: 200px;
         }
-        #git{
-            cursor: pointer;
-            padding: 5px;
-            border-radius: 9px;
-            transition: all 0.5s;
-            border: none;
+
+        #github {
+            display: inline-block;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 2px 7px;
+            border-radius: 7px;
+            transition: all 0.5s
         }
+
+        #github:hover {
+            transform: scale(1.1);
+            background-color: white;
+            color: black;
+        }
+       
         @media screen and (max-width: 600px) {
             .com-fundo {
                 font-size: 20px;
@@ -198,7 +203,7 @@
             Deixe que Deus interprete. <br>
         </p>
     </main>
-   <footer>
+   <footer id="git">
         <p>💻Desenvolvido por Daviolidev | <a href="https://github.com/DaviOliDev" id="github">Siga-me</a></p>
     </footer>
 </body>
